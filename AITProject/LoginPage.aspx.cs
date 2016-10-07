@@ -18,5 +18,17 @@ namespace AITProject
         {
 
         }
+
+        protected void butSubmit_Click(object sender, EventArgs e)
+        {
+            if (radioStud.Checked)
+            {
+                Response.Redirect("StudentUpdate.aspx");
+            }
+            else if (radioSecr.Checked)
+            {
+                Response.Redirect("Student.aspx");
+            }
+        }
     }
 }
