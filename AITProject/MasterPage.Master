@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="AITProject.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>University Information System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="divStyle.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:Image ID="Image1" runat="server" ImageUrl="gg.png" Width="100%" Height="100px" />
+        <br />
+        <br />
+
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        </div>
+      
+        <asp:AdRotator ID="AdRotator1" runat="server" Width="100%" Height="75px" AdvertisementFile="ad.xml" style="vertical-align:bottom" />
+
+    </form>
+</body>
+</html>
