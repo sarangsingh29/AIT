@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div style="margin-left:40%">    
+    <div style="margin-left:0.1%">    
         <asp:Image ID="loginimg" runat="server" ImageUrl="user.png" style="margin-left:3%" Height="230px" Width="271px"/>
         <br />
         <br />
@@ -18,12 +18,11 @@
         <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server" ErrorMessage="Password Required" ControlToValidate="textPass"></asp:RequiredFieldValidator>
     <br />
         <br />
-        <br>
-    <asp:Panel ID="Panel1" runat="server">
-        
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<asp:RadioButton ID="radioStud" runat="server" OnCheckedChanged="RadioButton1_CheckedChanged" Text="Student" GroupName="Login" />
+        &nbsp;&nbsp;&nbsp;
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:RadioButton ID="radioStud" runat="server" OnCheckedChanged="RadioButton1_CheckedChanged" Text="Student" GroupName="Login" />
         &nbsp;<asp:RadioButton ID="radioSecr" runat="server" Text="Secretary" GroupName="Login" />
-    </asp:Panel>
+        <br>
         <br /><!-- TO DO CUSTOM VALIDATOR-->
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="CheckBox1" Text="Remember Me" runat="server" />
@@ -31,6 +30,6 @@
     <br />
     <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="butSubmit" runat="server" Text="Submit" />
+    <asp:Button ID="butSubmit" runat="server" Text="Submit" OnClick="butSubmit_Click" />
     </div>
 </asp:Content>
