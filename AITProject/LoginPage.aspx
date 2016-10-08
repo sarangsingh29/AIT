@@ -22,7 +22,7 @@
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:RadioButton ID="radioStud" runat="server" OnCheckedChanged="RadioButton1_CheckedChanged" Text="Student" GroupName="Login" />
         &nbsp;<asp:RadioButton ID="radioSecr" runat="server" Text="Secretary" GroupName="Login" />
-        <br>
+        <br />
         <br /><!-- TO DO CUSTOM VALIDATOR-->
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="CheckBox1" Text="Remember Me" runat="server" />

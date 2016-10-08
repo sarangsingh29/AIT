@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-               <asp:Wizard runat="server" ActiveStepIndex="0"  OnFinishButtonClick="Unnamed1_FinishButtonClick" Width="250px">
+               <asp:Wizard runat="server" ActiveStepIndex="2"  OnFinishButtonClick="Unnamed1_FinishButtonClick" Width="250px">
                    <WizardSteps>
                        <asp:WizardStep>
                            
@@ -31,5 +31,6 @@
                        </asp:WizardStep>
                    </WizardSteps>
                </asp:Wizard>
+    <asp:Label runat="server" ID="labeller" />
    
 </asp:Content>
