@@ -60,6 +60,10 @@
     <Content Include="ad.xml" />
     <Content Include="divStyle.css" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="Secretary.aspx" />
+    <Content Include="SecretaryAcademic.aspx" />
+    <Content Include="SecretaryFinancial.aspx" />
+    <Content Include="SecretaryStudent.aspx" />
     <Content Include="Student.aspx" />
     <Content Include="StudentUpdate.aspx" />
     <Content Include="Web.config" />
@@ -80,6 +84,34 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secretary.aspx.cs">
+      <DependentUpon>Secretary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secretary.aspx.designer.cs">
+      <DependentUpon>Secretary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryAcademic.aspx.cs">
+      <DependentUpon>SecretaryAcademic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecretaryAcademic.aspx.designer.cs">
+      <DependentUpon>SecretaryAcademic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryFinancial.aspx.cs">
+      <DependentUpon>SecretaryFinancial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecretaryFinancial.aspx.designer.cs">
+      <DependentUpon>SecretaryFinancial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryStudent.aspx.cs">
+      <DependentUpon>SecretaryStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecretaryStudent.aspx.designer.cs">
+      <DependentUpon>SecretaryStudent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Student.aspx.cs">
       <DependentUpon>Student.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

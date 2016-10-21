@@ -27,7 +27,7 @@ namespace AITProject
             }
             else if (radioSecr.Checked)
             {
-                Response.Redirect("Student.aspx");
+                Response.Redirect("Secretary.aspx");
             }
         }
     }

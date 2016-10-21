@@ -3,3 +3,8 @@ C:\Users\Student\Documents\Visual Studio 2012\D27-29\AITProject\AITProject\bin\A
 C:\Users\Student\Documents\Visual Studio 2012\D27-29\AITProject\AITProject\obj\Debug\AITProject.csprojResolveAssemblyReference.cache
 C:\Users\Student\Documents\Visual Studio 2012\D27-29\AITProject\AITProject\obj\Debug\AITProject.dll
 C:\Users\Student\Documents\Visual Studio 2012\D27-29\AITProject\AITProject\obj\Debug\AITProject.pdb
+C:\Users\Student\Documents\Visual Studio 2012\AIT\AITProject\bin\AITProject.dll
+C:\Users\Student\Documents\Visual Studio 2012\AIT\AITProject\bin\AITProject.pdb
+C:\Users\Student\Documents\Visual Studio 2012\AIT\AITProject\obj\Debug\AITProject.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\Visual Studio 2012\AIT\AITProject\obj\Debug\AITProject.dll
+C:\Users\Student\Documents\Visual Studio 2012\AIT\AITProject\obj\Debug\AITProject.pdb
